@@ -5,7 +5,7 @@ public class NestedLoop {
   public int nestedForLoops() {
     int result = 1;
     int rows = 5;
-    for (int i = 0; i < rows; i++) {
+    for (int i = 0; i < rows; i++) { 
       int rowResult = 1;
       for (int j = 0; j < i; j++) {
         rowResult += j;
