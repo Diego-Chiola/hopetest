@@ -24,8 +24,8 @@ public class ComplexTest
 
     @Test
     void complexAddRealPart(){
-        Complex c1 = new Complex(1, 1);
-        Complex c2 = new Complex(2, 2);
+        Complex c2 = new Complex(1, 1);
+        Complex c3 = new Complex(2, 2);
         double expected = 3;
         assertEquals(expected, c1.add(c2));
     }
