@@ -9,4 +9,8 @@ public class Calculator {
     }
     return sum;
   }
+
+  public int getResult(int number){
+    return number+1;
+  }
 }
