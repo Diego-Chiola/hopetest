@@ -10,6 +10,7 @@ class RationalTest {
     
     @Test
     void RationalTestTimesRationalIsOne(){
+        
         BigInteger bInteger1 = new BigInteger("1");
         BigInteger bInteger2 = new BigInteger("1");
         BigInteger bInteger3 = new BigInteger("10");
